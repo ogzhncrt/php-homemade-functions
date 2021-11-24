@@ -5,3 +5,4 @@ This repository contains home-made PHP functions.
 ## Functions
 
 ### is_prime()
+### has_duplicate()

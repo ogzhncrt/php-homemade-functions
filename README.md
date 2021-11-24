@@ -1,6 +1,6 @@
 # PHP Home-made Functions
  
-This example repository contains home-made PHP functions.  
+This repository contains home-made PHP functions.  
 
 ## Functions
 

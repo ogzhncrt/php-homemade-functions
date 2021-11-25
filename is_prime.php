@@ -6,7 +6,7 @@
  * be divided to get a whole number if it is divided by 1 or 11. 
  * If any other number is used then a fraction is always found.
  *
- * @param integer $number is_pr
+ * @param integer $number
  * 
  *
  * @author ogzhncrt

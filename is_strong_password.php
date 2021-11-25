@@ -1,10 +1,8 @@
 <?php 
 
 /**
- * A prime number is a number which has exactly two distinct number 
- * divisors: 1 and itself. So if you take the number 11, it can only 
- * be divided to get a whole number if it is divided by 1 or 11. 
- * If any other number is used then a fraction is always found.
+ * This function checks the password is strong
+ * or not. If it is not will return FALSE;
  *
  * @param string $password
  * 

@@ -33,6 +33,4 @@
         }
     }
 
-    echo human_time(time()-120);
-
 ?>

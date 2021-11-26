@@ -6,3 +6,4 @@ This repository contains home-made PHP functions.
 
 ### is_prime()
 ### has_duplicate()
+### human_time()

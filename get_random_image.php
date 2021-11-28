@@ -16,20 +16,21 @@
      */ 
     function get_random_image($width,$height,$crop_gravity = FALSE, $grayscale = FALSE, $blur = FALSE){
         $request_url = "https://unsplash.it/";
-        if($grayscale){
+
+        if($grayscale) {
             $request_url .= "g/";
         }
         $request_url .= $width."/".$height."/?random";
-        if($crop_gravity != FALSE) {
+
+        if($crop_gravity) {
             $request_url .= "&gravity=".$crop_gravity;
         }
-        if($blur != FALSE) {
+        if($blur) {
             $request_url .= "&blur";
         }
-        
+
         return $request_url;
     }
-
 
 ?>
 

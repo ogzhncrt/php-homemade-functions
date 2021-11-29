@@ -20,6 +20,8 @@
 			}
 			else{
 				$lighter_ratio = (100-round($unit*100/$highest));
+
+				$pre_color = 16*$lighter_ratio/100;
 				$as_color      = dechex(floor(16*$lighter_ratio/100));
 
 				echo "%".$lighter_ratio." > ".$as_color."<br>";

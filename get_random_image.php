@@ -20,6 +20,7 @@
         if($grayscale) {
             $request_url .= "g/";
         }
+        
         $request_url .= $width."/".$height."/?random";
 
         if($crop_gravity) {

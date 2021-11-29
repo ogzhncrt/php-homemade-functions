@@ -1,6 +1,8 @@
 <?php 
 	
-	function distribution($units,$color = "#F00"){
+	function distribution($units){
+		$color = "#F00";
+
 		$sum     = array_sum($units);
 		$highest = max($units);
 
@@ -18,8 +20,13 @@
 			}
 			else{
 				$lighter_ratio = (100-round($unit*100/$highest));
+				$as_color      = dechex(floor(16*$lighter_ratio/100));
 
-				
+				echo "%".$lighter_ratio." > ".$as_color."<br>";
+
+
+
+
 			}
 		}
 	}

@@ -32,7 +32,6 @@
 
         return $request_url;
     }
-
 ?>
 
 <img src="<?php echo get_random_image(400,400); ?>" alt="">

@@ -10,7 +10,15 @@
      *
      */ 
     function to_seconds($value){
-        
+        /* 
+            TYPES ==
+            12:32:12
+            00:32:31
+            32:31
+            1:33
+            34 (only minutes)
+
+        */
 
         return $value;
     }

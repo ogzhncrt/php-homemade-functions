@@ -6,7 +6,6 @@
      *
      * @param String $value
      *
-     * @author ogzhncrt
      * @return String $seconds
      *
      */ 

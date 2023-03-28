@@ -29,7 +29,6 @@
         if($blur) {
             $request_url .= "&blur";
         }
-
         return $request_url;
     }
 ?>
